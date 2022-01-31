@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Questrial&display=swap");
+
+html {
+  font-family: "Questrial", sans-serif;
+  background: "black";
+}
+
+li {
+  letter-spacing: 0.65mm;
+}
+
+.mbsecscroll {
+  scroll-behavior: smooth;
+}
+
+.mbsecscroll::-webkit-scrollbar {
+  width: 0;
+}
