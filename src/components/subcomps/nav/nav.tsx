@@ -91,29 +91,29 @@ const Nav = (props: Props) => {
         <div>
           <Mobiledropmenu />
         </div>
-        <div className="hidden px-8 lg:flex flex-row list-none justify-evenly gap-5">
-          <li>
+        <div className="hidden px-8 lg:flex flex-row list-none justify-evenly">
+          <li className="px-5">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="px-5">
             <Onemenu title="Product" type="prod" />
           </li>
-          <li>
+          <li className="px-5">
             <Onemenu title="Industry" type="ind" />
           </li>
-          <li>
+          <li className="px-5">
             <Link to="/quality">Quality</Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link to="/inquiry">Send Inquiry</Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link to="/about">About Us</Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center px-3">
             <Multilang />
           </li>
         </div>

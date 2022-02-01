@@ -5,7 +5,7 @@ import Contactmail from "./contactmail";
 export default function Contactform() {
   return (
     <div className="flex flex-1 pt-16 justify-center items-center ">
-      <div className="bg-gray-600 w-full mx-8 bg-opacity-40 shadow lg:max-w-3xl overflow-hidden rounded-lg">
+      <div className="bg-gray-600 w-full mx-8 bg-opacity-40 shadow lg:max-w-3xl 2xl:max-w-screen-2xl overflow-hidden rounded-lg">
         <div className="px-4 py-5 sm:px-6">
           <h3 className="text-lg leading-6 font-medium text-white">
             Get in touch

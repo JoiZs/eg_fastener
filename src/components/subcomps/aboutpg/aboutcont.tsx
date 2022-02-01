@@ -35,7 +35,7 @@ const features = [
 
 export default function About() {
   return (
-    <div className="py-12 lg:max-w-4xl m-auto">
+    <div className="py-12 lg:max-w-4xl m-auto 2xl:max-w-screen-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-400 font-semibold tracking-widest uppercase">

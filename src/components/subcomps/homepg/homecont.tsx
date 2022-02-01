@@ -39,7 +39,7 @@ export default function Homecont(props: Prop): ReactElement {
   }, []);
 
   return (
-    <div className="flex flex-col lg:mx-auto max-w-screen-xl top-0 w-64 md:w-full relative px-8 h-96">
+    <div className="flex flex-col lg:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl top-0 w-64 md:w-full relative px-8 h-96">
       <div className="absolute text-left lg:text-right top-1/2 md:top-1/2 transform  md:w-1/2 md:right-8">
         <div className="text-2xl md:text-6xl  tracking-wide">
           {titlelet.map((el) => (

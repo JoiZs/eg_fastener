@@ -27,17 +27,17 @@ const Home = (props: Props) => {
           9001:2008
         </span>
       </div>
-      <div className="flex absolute text-base gap-2 opacity-30 bottom-10 left-8 lg:left-40 flex-row justify-center items-center">
-        <a href="https://social" className="hover:opacity-50">
+      <div className="flex absolute text-base opacity-30 bottom-10 left-8 lg:left-40 flex-row justify-center items-center">
+        <a href="https://social" className="hover:opacity-50 px-2">
           <FaFacebookF />
         </a>
-        <a href="https://social" className="hover:opacity-50">
+        <a href="https://social" className="hover:opacity-50 px-2">
           <BsGoogle />
         </a>
-        <a href="https://social" className="hover:opacity-50">
+        <a href="https://social" className="hover:opacity-50 px-2">
           <FaTwitter />
         </a>
-        <a href="https://social" className="hover:opacity-50">
+        <a href="https://social" className="hover:opacity-50 px-2">
           <FaLinkedinIn />
         </a>
       </div>
