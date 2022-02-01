@@ -14,7 +14,7 @@ const Home = (props: Props) => {
       />
       <img
         className="fixed pointer-events-none w-screen h-screen object-cover object-left left-0 top-0 -z-10"
-        src="wp.webp"
+        src="wp.jpg"
         alt="home"
       />
       <div className="flex absolute opacity-30 bottom-10 right-8 lg:right-40 flex-col justify-center items-center">

@@ -8,7 +8,7 @@ const Aboutus = (props: Props) => {
     <div className="h-screen w-screen flex justify-center">
       <About />
       <img
-        src="wp2.webp"
+        src="wp2.jpg"
         alt="wp2"
         className="fixed filter brightness-75 object-cover w-screen h-screen object-center left-0 top-0 -z-10"
       />

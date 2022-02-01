@@ -8,7 +8,7 @@ const Quality = (props: Props) => {
     <div className="h-screen w-screen pt-12 bg-black bg-opacity-50">
       <Qualitycont />
       <img
-        src="wp2.webp"
+        src="wp2.jpg"
         alt="wp2"
         className="fixed object-cover w-screen h-screen object-center left-0 top-0 -z-10"
       />
